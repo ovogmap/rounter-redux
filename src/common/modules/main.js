@@ -7,7 +7,7 @@ export const getUsers = (users) => ({
   users
 })
 
-export const loading = () => ({ type: LOADING })
+export const loadingStart = () => ({ type: LOADING })
 
 const INITIAL_STATE = {
   loading: false,
